@@ -75,11 +75,3 @@ To complete the setup, you will need:
 ## License
 
 This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for details.
-
----
-
-This README provides a clear structure and actionable steps, making it easy for others to understand the project requirements and follow the setup instructions. Let me know if you'd like any further customization!
-
-Install docker and docker-compose.
-Create a jenkins user with Docker permissions and add the Jenkins server’s public key to the authorized keys.
-Open ports 80 and 8000 for web traffic, with the necessary firewall rules.

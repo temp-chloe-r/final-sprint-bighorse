@@ -71,7 +71,3 @@ To complete the setup, you will need:
   - Add the user to the Docker group.
   - Add the public key from the Jenkins server to the `authorized_keys` of this user.
 - **Firewall**: Ensure ports 80 (HTTP) and 8000 (application) are open in the firewall for incoming connections.
-
-## License
-
-This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for details.

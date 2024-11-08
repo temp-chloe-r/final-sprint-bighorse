@@ -4,8 +4,8 @@ services:
     image: tempchloer/final-sprint-frontend
     build: ./frontend
     ports:
-      - target: 8080
-        published: 8080
+      - target: 8000
+        published: 8000
   react:
     image: tempchloer/final-sprint-backend
     build:

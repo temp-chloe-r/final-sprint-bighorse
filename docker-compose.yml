@@ -1,13 +1,13 @@
 version: "3.8"
 services:
   java:
-    image: scottobrien1/final-sprint-frontend
+    image: tempchloer/final-sprint-frontend
     build: ./frontend
     ports:
       - target: 8080
         published: 8080
   react:
-    image: scottobrien1/final-sprint-backend
+    image: tempchloer/final-sprint-backend
     build:
       context: ./backend
     ports:
